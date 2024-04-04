@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon" />
+        <p id="toggle-text" class="toggle-theme__text">Dark mode</p>
+      </div>
+    </div>
+    <div id="toggle-colors" class="colors">
+      <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+      <div data-color="hsl(175, 100%, 50%)" class="colors__item colors__item--calypso"></div>
+      <div data-color="hsl(290, 74%, 31%)" class="colors__item colors__item--purple"></div>
+      <div data-color="hsl(0, 100%, 50%)" class="colors__item colors__item--red"></div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="column column--left">
+      <article class="card card--profile">
+        <div class="card__image-container">
+          <img src="assets/images/profile.jpeg" alt="" />
+        </div>
+        <div class="card__header">
+          <h2 class="card__title">Jorge Zavala</h2>
+          <p class="card__subtitle"> Programador - Diseñador Web - Growth hacker
+          </p>
+        </div>
+        <div class="card__body">
+          <div class="card__link"></div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mailbox-flag"
+            viewBox="0 0 16 16">
+            <path
+              d="M10.5 8.5V3.707l.854-.853A.5.5 0 0 0 11.5 2.5v-2A.5.5 0 0 0 11 0H9.5a.5.5 0 0 0-.5.5v8zM5 7c0 .334-.164.264-.415.157C4.42 7.087 4.218 7 4 7c-.218 0-.42.086-.585.157C3.164 7.264 3 7.334 3 7a1 1 0 0 1 2 0" />
+            <path
+              d="M4 3h4v1H6.646A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3V3a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4m0 1a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3" />
+          </svg>
+          <a href="mailto:Jorgez.zavala@hotmail.com">
+            Jorgez.zavala@hotmail.com
+          </a>
+        </div>
+        <div class="card__link">
+          <!-- a, piensa mientrad we work with passion -->
+          </a>
+        </div>
+        
+        <p class="card__text">
+          ¡Bienvenido! Mi nombre es Jorge Zavala, me dedico al diseño y desarrollo web y de aplicaciones moviles, tambien al crecimiento de proyectos digitales,
+          amo las tecnologías y el entorno digital.          
+          <br /> Nací para cumplir metas, clarifico las situaciones, las ordeno y luego voy por el objetivo, liderazgo y actitud me definen, 
+          trabajar en equipo y uso de habilidades blandas, comunicador, autodidacta e informado ante las situaciones de la realidad y lo virtual, capacidad autocritica y de constante aprendizaje.
+          <br /> Mis intereses actuales se basan en los medios digitales, sus tecnologías y medios, actualmente me encuentro estudiando ingles para ser un profesional mas completo.
+        </p>
+
+        <article class="card card--experience">
+          <h2 class="card__title">hobbies~</h2>
+          <div class="experience">
+            <img src="assets/images/videogames.jpg" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <h3 class="experience__job"> Amo los videojuegos</h3>
+              <p class="experience__description">A veces cuando tengo tiempo me sumerjo en algun titulo que no haya jugado aún.</p>
+            </div>
+          </div>
+          </article>
+
+          <article class="card card--experience">
+            <h2 class="card__title"></h2>
+            <div class="experience">
+              <img src="assets/images/travel.jpg" alt="logo" class="experience__image">
+              <div class="experience__info">
+                <h3 class="experience__job">Viajar es invertir en ti</h3>
+                <p class="experience__description">Conocer otras culturas y otras formas de vivir, 
+                es una buena forma de llenar el alma con conocer y recibir toda esa diversidad cultural.
+                </p>
+              </div>
+            </div>
+            </article>
+      </section>
+    </article>
+
+    <section class="column column--right">
+      <article class="card">
+        <h2 class="card__title">Front-end</h2>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">Html</p>
+            <progress class="progressbar skills__bar skills__bar--70" max="100" value="70"></progress>
+          </div>
+
+          
+          <div class="skills__item">
+            <p class="skills__tech">Javascript</p>
+            <progress class="progressbar skills__bar skills__bar--70" max="100" value="30"></progress>
+          </div>
+
+          <div class="skills__item">
+            <p class="skills__tech">Css</p>
+            <progress class="progressbar skills__bar skills__bar--70" max="100" value="40"></progress>
+          </div>
+
+          <div class="skills__item">
+            <p class="skills__tech">Bootstrap</p>
+            <progress class="progressbar skills__bar skills__bar--70" max="100" value="70"></progress>
+          </div>
+
+          <div class="skills__item">
+            <p class="skills__tech">Tailwind
+            </p>
+            <progress class="progressbar skills__bar skills__bar--70" max="100" value="70"></progress>
+          </div>
+
+          <div class="skills__item">
+            <p class="skills__tech">React</p>
+            <progress class="progressbar skills__bar skills__bar--70" max="100" value="70"></progress>
+          </div>
+
+      </article>
+      
+
+      
+      <article class="card">
+        <h2 class="card__title">Back-end </h2>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">Python</p>
+            <progress class="progressbar skills__bar skills__bar--70" max="100" value="70"></progress>
+          </div>
+
+          <div class="skills__item">
+            <p class="skills__tech">Fast-Api</p>
+            <progress class="progressbar skills__bar skills__bar--70" max="100" value="80"></progress>
+          </div>
+
+          <div class="skills__item">
+            <p class="skills__tech">Django</p>
+            <progress class="progressbar skills__bar skills__bar--70" max="100" value="90"></progress>
+          </div>
+        </div>
+      </article>
+  
+      <article class="card">
+        <h2 class="card__title">Mobile dev</h2>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">React native</p>
+            <progress class="progressbar skills__bar skills__bar--70" max="100" value="90"></progress>
+          </div>
+
+          <div class="skills__item">
+            <p class="skills__tech">Node.js</p>
+            <progress class="progressbar skills__bar skills__bar--70" max="100" value="68"></progress>
+          </div>
+
+          <div class="skills__item">
+            <p class="skills__tech">Typescript</p>
+            <progress class="progressbar skills__bar skills__bar--70" max="100" value="40"></progress>
+          </div>
+
+          <div class="skills__item">
+            <p class="skills__tech">Figma</p>
+            <progress class="progressbar skills__bar skills__bar--70" max="100" value="70"></progress>
+          </div>
+        </div>
+      </article>
+
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/mifirstproject.jpg" alt="landing page" 
+          class="card__image">
+        </div>
+
+      <div class="project">
+      <div class="project__tags">
+        <span class="project__tags">#Html</span>
+        <span class="project__tags">#Css</span>
+        <span class="project__tags">#Responsive</span>
+      </div>
+
+      <h2 class="card__title">Page format blog</h2>
+      <p class="card__text"> Acá puedes descargar una mini pagina web en formato blog cual te sirve para crear tu propia web muy basica creada
+        con html y css, diseño responsive, puedes cambiar el texto y su contenido a tu antojo.</p>
+      <p class="card__text"> Este contenido es de utilidad para cualquier usuario de internet que sea escritor, creador o emprendedor que quiera iniciar su blog.</p>
+      <p> No hay requisitos previos para descargar este contenido, se recomienda eso si, tener nociones basicas de programación. </p>
+      <div class="buttons">
+      <a href="https://kokeaft.github.io/MyfirstProject/" class="button button--primary">Demo</a>
+      <a href="https://github.com/Kokeaft/MyfirstProject" class="button button--ghost">Code</a>
+    </article>
+
+    <article class="card card--project">
+      <div class="card__image-container">
+        <img src="assets/images/coomingsoon.jpg" alt="landing page" 
+        class="card__image">
+      </div>
+
+    <div class="project">
+    <div class="project__tags">
+      <span class="project__tags">#Html</span>
+      <span class="project__tags">#Css</span>
+      <span class="project__tags">#Javascript</span>
+      <span class="project__tags">#Responsive</span>
+    </div>
+
+    <section class="column column--right">
+    <h2 class="card__title">Web React + Tailwind + Vite</h2>
+    
+    <p class="card__text">Pronto</p>
+    <div class="buttons">
+    <a href="#" class="button button--primary">not available</a>
+    <a href="#" class="button button--ghost">not available</a>
+    </div>
+    <div></div>
+  </section>
+</article>
+</section>
+
+
+
+</article>
+
+
+    <!-- aqui pega el codigooooooooooooooooooooooooooooooooooo -->
+  </main>
+
+
+  
+  <script type="module" src="js/scripts.js"></script>
+</body>
+
+</html>
